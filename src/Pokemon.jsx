@@ -8,8 +8,8 @@ import "./App.css";
 
 const Pokemon = ({ flags }) => {
   const [pokémon, setPokémon] =
-    useState("pidgey");
-  const [img, setImg] = useState("pidgey");
+    useState("pikcahu");
+  const [img, setImg] = useState("pikcahu");
 
   useEffect(() => {
     document.title = "Hello, " + pokémon;
